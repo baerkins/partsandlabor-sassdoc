@@ -1,7 +1,18 @@
 {
   "name": "sassdoc-theme-partsandlabor",
   "description": "Parts and Labor Sassdoc Theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Shaun Baer",
+      "email": "shaun.baer@gmail.com",
+      "homepage": "https://github.com/iamhexcoder"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/iamhexcoder/partsandlabor-sassdoc.git"
+  },
   "keywords": [
     "sassdoc-theme"
   ],
