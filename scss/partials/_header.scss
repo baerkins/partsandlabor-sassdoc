@@ -1,6 +1,7 @@
 .header {
   padding: 20px 0;
   background-color: $background-dark;
+  color: $white;
 
   @include break($medium) {
     position: fixed;
@@ -27,8 +28,17 @@
   }
 
   &__content {
+    text-align: right;
+
     @include break($medium) {
       @include grid-col(6);
+    }
+
+    p {
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      padding-top: 17px;
     }
   }
 }
