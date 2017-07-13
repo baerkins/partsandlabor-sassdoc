@@ -1,0 +1,33 @@
+.item-section {
+
+  &__group {
+
+    &-header {
+      font-size: 50px;
+      font-family: $serif;
+      text-transform: capitalize;
+      margin-bottom: 40px;
+    }
+
+    & + & {
+      margin-top: 200px;
+    }
+  }
+
+  &__type {
+
+    & + & {
+      margin-top: 80px;
+    }
+
+    &-header {
+      font-size: 14px;
+      font-family: $mono;
+      padding: 10px;
+      margin-bottom: 40px;
+      background-color: $brand-color;
+      color: $white;
+      display: inline-block;
+    }
+  }
+}

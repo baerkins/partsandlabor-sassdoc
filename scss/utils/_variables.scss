@@ -1,0 +1,50 @@
+
+/// Map of breakpoints for responsive design.
+/// @type Map
+$breakpoints: (
+  "small":  (max-width: 800px),
+  "medium": (min-width: 801px),
+) !global;
+
+
+
+$brand-color: #0055ff; //#D84315;                       // red
+$black: #212121;
+$white: #FFFFFF;
+$background-dark: #0055ff;
+$text-color: #616161;
+$text-highlight-color: $brand-color;
+$border-color: #BDBDBD;
+$serif:  "ff-tisa-web-pro", serif;
+$sans:   "europa", sans-serif;
+$mono:   'Space Mono', monospace;
+$body:   $sans;
+$header: $serif;
+$strong-weight: 600;
+$body-weight: 400;
+
+
+/// Main font stack for text
+/// @type List
+$text-font-stack: $sans;
+
+/// Main font stack for code
+/// @type List
+$code-font-stack: $mono;
+
+/// Pink
+/// @type Color
+$pink: #dd5a6f !default;
+
+/// Purple
+/// @type Color
+$purple: #5c4863 !default;
+
+/// Yellow
+/// @type Color
+$yellow: #ffc93c !default;
+
+$active-breakpoints: ($xsmall: $xsmall-container, $small:  $small-container, $medium: $medium-container, $large:  $large-container);
+
+
+
