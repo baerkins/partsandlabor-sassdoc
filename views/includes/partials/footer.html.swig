@@ -31,8 +31,7 @@
           </div>
         {% endif %}
         <div class="footer__author">
-          <p>Authored by Shaun M. Baer</p>
-          <p>Developer at <a href="http://j2made.com" target="_blank" rel="noopener">J2 Design</a></p>
+          <p>Parts and Labor theme authored by Shaun M. Baer</p>
         </div>
       </div>
     </div>
