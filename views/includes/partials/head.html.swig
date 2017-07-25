@@ -20,5 +20,6 @@
 <!-- Thanks to Sass-lang.com for the icons -->
 <link href="{{ shortcutIcon.url }}" rel="shortcut icon">
 
-<script src="https://use.typekit.net/akc0yri.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<link href="https://fonts.googleapis.com/css?family=PT+Serif:400,700|Poppins" rel="stylesheet">
+{# <script src="https://use.typekit.net/akc0yri.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script> #}
