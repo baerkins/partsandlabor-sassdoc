@@ -21,13 +21,13 @@
     }
 
     &-header {
-      font-size: 14px;
-      font-family: $mono;
-      padding: 10px;
+      font-size: 22px;
+      text-transform: capitalize;
+      font-family: $serif;
+      padding: 15px;
       margin-bottom: 40px;
       background-color: $brand-color;
       color: $white;
-      display: inline-block;
     }
   }
 }

@@ -28,11 +28,19 @@ code {
   background-color: darken($white, 5%);
   color: $brand-color;
   font-family: 'Droid Sans Mono', monospaced;
+  overflow: auto;
+  white-space: pre-wrap;
+  line-height: 1.5;
 
   code {
     background-color: transparent;
     padding: 0;
   }
+}
+
+p.mono {
+  font-family: 'Droid Sans Mono', monospaced;
+  color: $brand-color;
 }
 
 pre {
@@ -46,3 +54,7 @@ pre {
 // h1, h2, h3, h4, h5, h6 {
 //   font-weight: 400;
 // }
+
+.underline {
+  text-decoration: underline;
+}
