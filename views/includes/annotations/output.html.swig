@@ -1,7 +1,7 @@
 {# {% if item.file.length > 0 %} #}
   <div class="item__path">
     <h3 class="item__sub-heading">File Location</h3>
-    <p class="mono">./{{ group_name }}/{{ item.file.path }}, starting on line {{ item.context.line.start }}</p>
+    <p class="mono">./lib/{{ group_name }}/{{ item.file.path }}, starting on line {{ item.context.line.start }}</p>
   </div>
 {# {% endif %} #}
 
