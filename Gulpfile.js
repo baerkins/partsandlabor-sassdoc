@@ -90,7 +90,7 @@ gulp.task('compile', function () {
 
   var sdStream = sassdoc(config);
 
-  gulp.src(['../parts/**/*.scss', '../labor/**/*.scss'])
+  gulp.src('../lib/**/*.scss')
     .pipe(sdStream);
 
   // Await for the full documentation process.

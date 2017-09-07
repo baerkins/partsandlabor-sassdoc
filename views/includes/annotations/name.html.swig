@@ -1,5 +1,5 @@
 <h3 class="item__heading">
-  {{ item.context.name }}
+  {{ item.context.name }}{% if item.parameter.length > 0 %}(){% endif %}
 </h3>
 
 

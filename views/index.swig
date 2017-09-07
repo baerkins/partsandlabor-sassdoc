@@ -33,7 +33,6 @@
         {# Include description #}
         {% include "includes/partials/description.html.swig" %}
 
-
         {% for group_name, group in data.byGroupAndType %}
         <section id="{{ groups[group_name] }}" class="item-section__group">
             {# Retrieve group alias if any (else group name) #}
