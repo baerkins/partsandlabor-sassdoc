@@ -72,8 +72,6 @@ module.exports = function (dest, ctx) {
   // Extend top-level context keys.
   ctx = extend({}, def, ctx);
 
-  console.log(ctx);
-
   /**
    * Parse text data (like descriptions) as Markdown, and put the
    * rendered HTML in `html*` variables.
