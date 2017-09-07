@@ -43,7 +43,7 @@
             {# If items to be displayed in type #}
             {% if items.length > 0 %}
             <section id="{{ groups[group_name] }}-{{ type }}" class="item-section__type">
-              <h2 class="item-section__type-header">{{ type }}</h2>
+              <h2 class="item-section__type-header">{{ type }}s</h2>
               {# 3. Loop over the items in the current type #}
               {% for item in items %}
                 {% include "includes/partials/item.html.swig" with item %}
